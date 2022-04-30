@@ -1,0 +1,53 @@
+[user]
+        name = ext8
+        username = ext8
+        email = 99179850+ext8@users.noreply.github.com
+
+[init]
+        defaultBranch = main
+
+[core]
+        editor = code --wait
+        pager = delta
+
+	excludesfile = ~/.gitignore
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
+
+[web]
+        browser = chromium
+
+[color]
+        ui = true
+
+[alias]
+
+        # pull
+        p = pull
+        # push
+        pp = push
+        # fetch
+        f = fetch
+        # checkout
+        co = checkout
+
+        # clone
+        cl = clone
+        # commit
+        ci = commit
+        # branch
+        br = branch
+        # add *
+        aa = add *
+
+        # status
+        st = status
